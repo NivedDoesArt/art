@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Mosterrat;
+    src: url(../FONTS/Monsterrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Opensans;
+    src: url(../FONTS/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+html,
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mosterrat;
+    font-kerning: auto;
+    list-style: none;
+}
+
+
+
+
+
+.commissionsHeader {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.commissionsHeader h1 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.commissionsHeader p {
+    margin-bottom: 5px;
+
+    color: #000b;
+}
+
+
+
+
+
+.catagory {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 50px;
+}
+
+.catagory h2 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.catagory p {
+    margin-bottom: 5px;
+
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.catagory ul {
+    width: 100%;
+    text-align: justify;
+    text-align-last: justify;
+    cursor: default;
+}
+
+.catagory ul img {
+    width: 20vw;
+    height: 20vw;
+
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #08f2;
+
+    transition: all 0.25s;
+}
+
+.catagory ul img:hover {
+    transform: translateY(-5px) scale(102%);
+}
+
+
+
+
+
+.aditional {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 100px;
+
+    text-align: center;
+}
+
+.aditional h2 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.aditional h4 {
+    width: fit-content;
+    margin-bottom: 5px;
+    display: inline-block;
+
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+
+    transition: all 0.1s;
+}
+
+.aditional h4:hover {
+    font-weight: 500;
+}
+
+.aditional p {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}

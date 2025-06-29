@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="shortcut icon" href="IMG/watermark.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="headerLeft">
+            <div class="name" onclick="nav(1)">NivedDoesArt</div>
+        </div>
+        <div id="headerMiddle">
+            <ul>
+                <li onclick="nav(1)">HOME</li>
+                <li onclick="nav(2)">GALLERY</li>
+                <li onclick="nav(3)">WEBSHOP</li>
+                <li onclick="nav(4)">COMMISSIONS</li>
+                <li onclick="nav(5)">CONTACT</li>
+            </ul>
+            <div class="selector">
+                <p id="selectorArrow">&#8963</p>
+            </div>
+        </div>
+        <div id="headerRight">
+            <ul>
+                <li onclick="window.open('https://www.tiktok.com/@niveddoesart')" class="tiktok"></li>
+                <li onclick="window.open('https://twitter.com/NivedDoesArt')" class="twitter"></li>
+                <li onclick="window.open('https://bsky.app/profile/niveddoesart.bsky.social')" class="bluesky"></li>
+                <li onclick="window.open('https://discord.com/invite/PAgEFwDdEr')" class="discord"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="mobileMenuButton" onclick="mobileMenuToggle()">
+        <div id="mmb1"></div>
+        <div id="mmb2"></div>
+        <div id="mmb3"></div>
+    </div>
+
+    <div id="mobileMenu">
+        <ul>
+            <li id="mobile1" onclick="nav(1)">HOME</li>
+            <li id="mobile2" onclick="nav(2)">GALLERY</li>
+            <li id="mobile3" onclick="nav(3)">WEBSHOP</li>
+            <li id="mobile4" onclick="nav(4)">COMMISSIONS</li>
+            <li id="mobile5" onclick="nav(5)">CONTACT</li>
+        </ul>
+
+        <div id="mobileSocials">
+            <a href="https://discord.com/invite/PAgEFwDdEr" target="_blank" class="discord"></a>
+            <a href="https://bsky.app/profile/niveddoesart.bsky.social" target="_blank" class="bluesky"></a>
+            <a href="https://twitter.com/NivedDoesArt" target="_blank" class="twitter"></a>
+            <a href="https://www.tiktok.com/@niveddoesart" target="_blank" class="tiktok"></a>
+        </div>
+    </div>
+
+    <div id="galPrev" onclick="prevClose()">
+        <img id="prevImg" src="IMG/full/1.png" alt="">
+        <div class="closeImage">&#x2715;</div>
+    </div>
+
+    <div id="content">
+        <div id="contentHolder">
+            <iframe id="home" src="HTML/home.html" frameborder="0"></iframe>
+            <iframe id="gallery" src="HTML/gallery.html" frameborder="0"></iframe>
+            <iframe id="webshop" src="HTML/webshop.html" frameborder="0"></iframe>
+            <iframe id="commissions" src="HTML/commissions.html" frameborder="0"></iframe>
+            <iframe id="contact" src="HTML/contact.html" frameborder="0"></iframe>
+        </div>
+    </div>
+
+
+
+    <div id="footer">
+        <div class="footerLinks">
+            <ul>
+                <p>Socials!</p>
+                <li onclick="window.open('https://www.tiktok.com/@niveddoesart')">tiktok</li>
+                <li onclick="window.open('https://twitter.com/NivedDoesArt')">twitter</li>
+                <li onclick="window.open('https://bsky.app/profile/niveddoesart.bsky.social')">bluesky</li>
+                <li onclick="window.open('https://discord.com/invite/PAgEFwDdEr')">discord</li>
+                <li><br></li>
+            </ul>
+            <ul>
+                <p>Pages!</p>
+                <li onclick="nav(1)">home</li>
+                <li onclick="nav(2)">gallery</li>
+                <li onclick="nav(3)">webshop</li>
+                <li onclick="nav(4)">commissions</li>
+                <li onclick="nav(5)">contact</li>
+            </ul>
+            <ul>
+                <p>Contact!</p>
+                <li onclick="window.open('https://twitter.com/NivedDoesArt')">twitter</li>
+                <li onclick="window.open('https://discord.com/invite/PAgEFwDdEr')">discord</li>
+                <li onclick="window.open('mailto:niveddoesart@gmail.com?SUBJECT=Art commission')">email</li>
+                <li onclick="window.open('https://t.me/+0WKHY7NbRPY1MmM0')">telegram</li>
+                <li><br></li>
+            </ul>
+        </div>
+
+        <p class="thankyou">Thank you so, so much for being here! :D</p>
+
+        <p class="copyright">copyright &copy; 2021 - 2025&emsp;|&emsp;by NivedDoesArt<br>All rights reserved.</p>
+    </div>
+</body>
+
+<script src="JS/main.js"></script>
+
+</html>

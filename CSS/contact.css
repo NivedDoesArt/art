@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Mosterrat;
+    src: url(../FONTS/Monsterrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Opensans;
+    src: url(../FONTS/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+html,
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mosterrat;
+    font-kerning: auto;
+    list-style: none;
+}
+
+
+
+
+
+.contactHeader {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.contactHeader h1 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.contactHeader p {
+    margin-bottom: 5px;
+
+    color: #000b;
+}
+
+
+
+.catagory {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+}
+
+.catagory ul {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.catagory ul a {
+    display: inline-block;
+
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+    color: #000b;
+
+    transition: all 0.1s;
+}
+
+.catagory ul a:hover {
+    font-weight: 500;
+    color: #000;
+}
+
+.catagory ul li {
+    display: inline-block;
+}
+
+.catagory ul li h3 {
+    text-align: left;
+    text-align-last: left;
+
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.catagory h2 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.catagory p {
+    text-align-last: center;
+
+    margin-bottom: 20px;
+}
+
+img {
+    height: 400px;
+    margin-left: calc((100vw / 2) - (400px / 2));
+    margin-right: calc((100vw / 2) - (400px / 2));
+}

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Mosterrat;
+    src: url(../FONTS/Monsterrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Opensans;
+    src: url(../FONTS/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+html,
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mosterrat;
+    font-kerning: auto;
+    list-style: none;
+}
+
+
+
+
+
+.webshopHeader {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.webshopHeader h1 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.webshopHeader p {
+    margin-bottom: 5px;
+
+    color: #000b;
+}
+
+
+
+
+
+.catagory {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 50px;
+}
+
+.catagory h1 {
+    margin-bottom: 5px;
+
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.catagory ul {
+    width: 100%;
+    min-height: 200px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.catagory ul li {
+    width: calc(25% - 2.5vw);
+    display: inline-block;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 0px 1px #0004;
+
+    transition: all 0.25s;
+}
+
+.catagory ul li:hover {
+    box-shadow: inset 0px 0px 0px 1px #000;
+    transform: scale(102%);
+}
+
+.catagory ul li img {
+    width: calc(100% - 2px);
+    margin: 1px;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.catagory ul li h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    text-align-last: center;
+}
+
+.catagory ul li button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: calc(50% - 50px);
+    margin-right: calc(50% - 50px);
+    text-align-last: center;
+
+    background-color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px #0006;
+
+    transition: all 0.2s;
+}
+
+.catagory ul li button:hover {
+    box-shadow: inset 0px 0px 0px 1px #000;
+    transform: translateY(-2px);
+}
+
+.catagory ul h3 {
+    text-align: center;
+    text-align-last: center;
+    margin-top: 100px;
+
+    font-size: 2em;
+    font-weight: 200;
+}
