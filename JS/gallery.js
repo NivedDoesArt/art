@@ -1,4 +1,4 @@
-var imageAmount = 82
+var imageAmount = 83
 var imageLoaded = 0
 
 while (imageAmount > imageLoaded) {
